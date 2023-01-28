@@ -21,8 +21,10 @@ const routes: Routes = [
             {
                 path: 'grafica1',
                 component: Grafica1Component
-            }]
-    }];
+            },
+        ]
+    },
+];
 
 @NgModule({
     imports: [RouterModule.forChild(routes)],
