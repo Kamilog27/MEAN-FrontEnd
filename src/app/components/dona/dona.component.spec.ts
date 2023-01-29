@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Grafica1Component } from './grafica1.component';
+import { DonaComponent } from './dona.component';
 
-describe('Grafica1Component', () => {
-  let component: Grafica1Component;
-  let fixture: ComponentFixture<Grafica1Component>;
+describe('DonaComponent', () => {
+  let component: DonaComponent;
+  let fixture: ComponentFixture<DonaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Grafica1Component ]
+      declarations: [ DonaComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Grafica1Component);
+    fixture = TestBed.createComponent(DonaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
